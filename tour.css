@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header1{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,30,0.7),rgba(0,0,30,0.7)),url("banner4.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.row{
+    width: 60%;
+    display: flexbox;
+    justify-content: center;
+}
+.corse-col{
+    
+    font-size: 16px;
+    flex-basis: 60%;
+    background: #d9c6f1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.corse-col1 img{
+    padding: 15px;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+} 
+.text-box h1{
+    margin-top: 55px ;
+    font-size: 45px;
+    color: #fff;
+}
+
+.game-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+  }
+  
+  .game-image img {
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .game-info {
+    margin-left: 40px;
+  }
+  
+  .game-info h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  .game-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .game-meta {
+    margin-bottom: 20px;
+  }
+  
+  .game-meta span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }

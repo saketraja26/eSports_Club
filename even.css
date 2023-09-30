@@ -1,0 +1,105 @@
+.header1{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,30,0.7),rgba(0,0,30,0.7)),url("banner2.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: block;
+    border-radius: 80%;
+}   
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0px;
+}
+.about-col p{
+    padding: 15px 0 25px;
+    text-align: justify;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+} 
+.text-box h1{
+    margin-top: 55px ;
+    font-size: 45px;
+    color: #fff;
+}
+
+
+
+.event-header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.event-header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.event-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.event-card img {
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.event-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.event-button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.event-button:hover {
+    background-color: #d32f2f;
+}
